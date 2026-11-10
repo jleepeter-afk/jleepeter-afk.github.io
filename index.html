@@ -125,6 +125,8 @@ h1 .en {
 .affil dd { margin: 0; font-weight: 500; }
 .head-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; }
 .head-row .btn { padding: 6px 14px; font-size: 14px; }
+.affil-line { margin: 0; border-top: 2px solid var(--ink); padding-top: 14px; display: flex; flex-wrap: wrap; gap: 4px 28px; font-weight: 500; }
+.affil-line em { font-style: normal; font-weight: 400; font-size: 14px; color: var(--muted); margin-right: 8px; }
 .affil-head { font-size: 1.05rem; font-weight: 500; }
 
 .affil.edu { border-top: 1px solid var(--line); padding-top: 12px; }
@@ -253,11 +255,11 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
       </div>
       </div>
     </div>
-      <dl class="affil">
-    <dt>학부</dt><dd>IT융합학과</dd>
-      <dt>산업대학원 석사과정</dt><dd>스마트융합공학과</dd>
-      <dt>일반대학원 박사과정</dt><dd>기술융합공학과</dd>
-    </dl>
+    <p class="affil-line">
+      <span><em>학부</em>IT융합학과</span>
+      <span><em>산업대학원 석사과정</em>스마트융합공학과</span>
+      <span><em>일반대학원 박사과정</em>기술융합공학과</span>
+    </p>
     <dl class="affil edu">
       <dt>학력</dt>
       <dd class="edu-list">
